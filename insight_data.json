@@ -1,0 +1,86 @@
+[
+    {
+        "id": "c5b6421d9be54de5be2d99d11a71d60f",
+        "dateCreated": "2022-12-15T15:47:43Z",
+        "dateUpdated": "2022-12-15T15:47:43Z",
+        "organizationId": "256d856c1f604fe0a3be834ecef96f79",
+        "startTime": "2022-12-09T00:00:00+00:00",
+        "endTime": "2022-12-12T00:00:00+00:00",
+        "measure": "CostUSD",
+        "score": 23,
+        "severity":"Medium",
+        "feedback": "NULL",
+        "stats": {
+            "id": "2f5224c072a547ad9a04dd941b3b026d",
+            "dateCreated": "2022-12-15T15:47:43Z",
+            "dateUpdated": "2022-12-15T15:47:43Z",
+            "topDrivers": {
+                "topDrivers": [
+                    [
+                        [
+                          "order_store_id=007"
+                        ],
+                        {
+                            "change": 999,
+                            "currentValue": 12.436819401560898,
+                            "previousValue": 114.69664796354576,
+                            "absoluteChange": -45,
+                            "effectiveChange": 45
+                        }
+                    ],
+                    [
+                        [
+                            "order_store_id=008"
+                        ],
+                        {
+                            "change": 999,
+                            "currentValue": 0.037053231577801,
+                            "previousValue": 0.9816597907871909,
+                            "absoluteChange": -45,
+                            "effectiveChange": 45
+                        }
+                    ]
+                ]
+            },
+            "rcaStartTime": "2022-10-20T00:00:00Z",
+            "rcaEndTime": "2022-10-22T00:00:00Z",
+            "previousValue": 60000,
+            "currentValue": 30000,
+            "absoluteChange": "50%",
+            "incident": "c5b6421d9be54de5be2d99d11a71d60f"
+        },
+        "header": "Google Analytics V4_GTMHUB/Sales/CostUSD",
+        "content": "CostUSD decreased by 50% from 60k to 30k during Octuber 20, 2022 00:00 to Octuber 22, 2022 00:00 for some_dimension with anomaly score of 30.",
+        "viewers": [
+            {
+                "id": "74a09ff10af447ed93cf650af55a2374",
+                "name": "user1",
+                "username": "user1",
+                "email": "user1@quantive.com",
+                "avatar": {
+                    "avatarType": "letter_avatar"
+                }
+            }
+        ],
+        "source": {
+            "id": "01d4f9a8f363478aba361dc84a796d68",
+            "dateCreated": "2022-08-24T07:12:13.920000Z",
+            "dateUpdated": "2022-08-24T07:12:13.920000Z",
+            "dateArchived": null,
+            "tags": [],
+            "name": "Azure",
+            "status": "beta",
+            "slug": "azure",
+            "category": "Cost Monitoring",
+            "queryEditor": false,
+            "description": "Do Azure cost monitoring by connecting your Azure",
+            "type": "inbound",
+            "direction": "pull",
+            "logo": "https://greendeck-cdn.s3.amazonaws.com/cliff_icons/azure.png"
+        },
+        "pastInsights": 4,
+        "isSaved": false,
+        "frequency": 86400,
+        "commentCount": 0
+    }
+]
